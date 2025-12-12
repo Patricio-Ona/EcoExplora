@@ -1,0 +1,141 @@
+{
+    "HomePage": {
+        "title": "Kawsaykama EcoExplora-man",
+        "aboutTitle": "¿Imashina EcoExplora kan?",
+        "aboutDescription": "ka digitalpi takishka sacha yuyaykuna hatun kallariy. Kaypi kachkan ñukanchik allpa riksishka sacha: hampikuna, sumak ñawinchikmanta, rurukuna, sacha asnawillakuna. Kunan shimi tukuykunata yachakuy, riksiy, allpayuk llankayta rikuchin.\n\nÑukanchik rurayka sacha yachayta wakchayta, sumak kawsaykunapi allpa llankayta alli rurayta munanmi.",
+        "ourMission": "Ñukanchik rurayka sacha yachayta wakchayta, sumak kawsaykunapi allpa llankayta alli rurayta munanmi."
+    },
+    "DiscoverSection": {
+        "heading": "Sacha Yuyaykunata Rikuy",
+        "description": "Ñukanchik sacha yachaykunata maskaripay. Riksiy imayna riksikuna, allin kaykunata, llankaykunata, shimikunata.",
+        "cta": "Tukuy Sachakunata Rikuy →"
+    },
+    "Loading": {
+        "loadingText": "EcoExplora shamun... Suyaychik"
+    },
+    "PlantasPage": {
+        "toggleMap": "Mapa rikuy",
+        "toggleList": "Killkashka rikuy",
+        "searchLabel": "Maskariy:",
+        "searchPlaceholder": "Sachakunata maskariy...",
+        "Listado": {
+            "previous": "Ñawpa",
+            "next": "Qhipa",
+            "pageIndicator": "Panka {page} ñawpaq {total}"
+        }
+    },
+    "PlantaPage": {
+        "notFound": "Sacha mana tariyka",
+        "category": "Suyupi:",
+        "zone": "Kawsaylla:",
+        "timesConsumed": "Ñawpa llankaykuna:",
+        "registeredBy": "Killkashka runa:",
+        "registrationDate": "Killkashka p'unchay:"
+    },
+    "Nav": {
+        "home": "Ñawpa wasi",
+        "recipes": "Ruraykuna",
+        "plants": "Sachakuna",
+        "aboutUs": "Ñukanchik",
+        "recognizePlant": "Sacha riksiy",
+        "account": "Killkana",
+        "addForum": "Tinkuy llankay apamuy",
+        "login": "Yaykuy",
+        "logout": "Llikchiy",
+        "register": "Killkashkakuy",
+        "language": "Shimi:",
+        "categories": {
+            "all": "Tukuy",
+            "medicinales": "Hampikuna",
+            "ornamentales": "Ñawinchikkuna",
+            "frutales": "Rurukuna",
+            "aromáticas": "Asnawillakuna"
+        }
+    },
+    "ListaForo": {
+        "heading": "Ayllu Tinkuy",
+        "noEntries": "Kay sachaman tinkuy killkashka kanchu.",
+        "beFirst": "Ñukanchik ñawpak llankayta ruray!",
+        "ForoCard": {
+            "postedBy": "Killkashka runa:",
+            "date": "P'unchay:",
+            "imageAlt": "Foro ñawi rikchay {id}"
+        }
+    },
+    "RecetasPage": {
+        "title": "Sacha Ruraykuna",
+        "Lista": {
+            "searchLabel": "Maskariy:",
+            "searchPlaceholder": "Ruraykunata maskariy..."
+        },
+        "Modal": {
+            "description": "Willay",
+            "instructions": "Ruraykamaykuna",
+            "date": "P'unchay:",
+            "user": "Runa:",
+            "close": "Wichariy"
+        }
+    },
+    "RecetaPage": {
+        "notFound": "Ruray mana tariyka",
+        "description": "Willay",
+        "instructions": "Ruraykamaykuna",
+        "date": "P'unchay:",
+        "user": "Runa:"
+    },
+    "Mapa": {
+        "filterLabel": "Sacha maskariy",
+        "allPlantsOption": "Tukuy sachakuna",
+        "closeSelection": "Sacha akllay wichariy",
+        "postedBy": "👤 {usuario}",
+        "location": "📍 {latitud}, {longitud}"
+    },
+    "GeneradorRecetas": {
+        "title": "Yachaypi rurayta ruray",
+        "placeholder": "Ñawi: tomate, orégano, albahaca",
+        "generateButton": "Rurayta ruray",
+        "generating": "Ruraykama...",
+        "error": "Ruray rurayta mana atikunchu.",
+        "emptyWarning": "Suma ruraq sacha killkakuy"
+    },
+    "Nosotros": {
+        "title": "Ñukanchikmanta",
+        "subtitle": "Sacha, yachay, ayllu juntay",
+        "whatIsTitle": "¿Imashina EcoExplora kan?",
+        "whatIsDescription": "Kay plataforma PUCE yachaypi rurashka, Chugchilán llaqtapi sachakunata yachakuyta facilkama rurayta munan. Kaypi runakuna ima shina riksikuna sachakunata yachakunkapak.",
+        "teamTitle": "Llankaykuna Runa",
+        "roles": {
+            "fausto": "Backend ruraykamayuq",
+            "alejandro": "Backend ruraykamayuq",
+            "sebas": "Frontend ruraykamayuq",
+            "domenica": "UX/UI riksichiq",
+            "alam": "UX/UI riksichiq"
+        },
+        "technologiesTitle": "Yachaykuna Rurakushka",
+        "footerThanks": "Yupaychani ñukanchik yachachikkunata. Chugchilán llaqtakunaman yupaychani kay yachay ruranakuypi yanapashkakman."
+    },
+    "LoginModal": {
+        "title": "Yaykuy",
+        "emailLabel": "Email",
+        "passwordLabel": "Contrasena",
+        "submit": "Yaykuy",
+        "loading": "Kachkan...",
+        "noAccount": "Mana cuenta kanchu?",
+        "registerLink": "Killkashkakuy",
+        "defaultError": "Mana allin error karqanmi."
+    },
+    "RegisterModal": {
+        "title": "Cuenta riksichiy",
+        "loading": "Killkashkakun...",
+        "errorRequired": "Tukuy llankinakmi riksishkakuna.",
+        "success": "¡Registro kaspi! Ahora yaykuylla kankichu.",
+        "registrationError": "Error killkashkakunapi.",
+        "nameLabel": "Suti",
+        "emailLabel": "Email",
+        "passwordLabel": "Contrasena",
+        "submit": "Killkashkakuy",
+        "alreadyAccount": "Cuenta kaspi kanki?",
+        "loginLink": "Yaykuy",
+        "defaultError": "Mana allin error karqanmi."
+    }
+}

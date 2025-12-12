@@ -1,0 +1,141 @@
+{
+    "HomePage": {
+        "title": "Benvenuto su EcoExplora",
+        "aboutTitle": "Cos'è EcoExplora?",
+        "aboutDescription": "è un archivio digitale di piante classificate in categorie come medicinali, ornamentali, da frutto e aromatiche. Questo sito offre informazioni rilevanti e accessibili sui loro usi, benefici, habitat e ricette naturali.\n\nLa nostra missione è promuovere la conoscenza botanica e incoraggiare l’uso responsabile e sostenibile delle piante nella vita quotidiana.",
+        "ourMission": "La nostra missione è promuovere la conoscenza botanica e incoraggiare l’uso responsabile e sostenibile delle piante nella vita quotidiana."
+    },
+    "DiscoverSection": {
+        "heading": "Scopri la nostra collezione di piante",
+        "description": "Esplora la nostra vasta libreria di piante autoctone. Scopri le loro caratteristiche, proprietà, usi e localizzazione.",
+        "cta": "Vedi tutte le piante →"
+    },
+    "Loading": {
+        "loadingText": "Caricamento di EcoExplora..."
+    },
+    "PlantasPage": {
+        "toggleMap": "Mostra mappa",
+        "toggleList": "Mostra elenco",
+        "searchLabel": "Cerca:",
+        "searchPlaceholder": "Cerca piante...",
+        "Listado": {
+            "previous": "Precedente",
+            "next": "Successivo",
+            "pageIndicator": "Pagina {page} di {total}"
+        }
+    },
+    "PlantaPage": {
+        "notFound": "Pianta non trovata",
+        "category": "Categoria:",
+        "zone": "Zona:",
+        "timesConsumed": "Volte usata:",
+        "registeredBy": "Registrata da:",
+        "registrationDate": "Data di registrazione:"
+    },
+    "Nav": {
+        "home": "Home",
+        "recipes": "Ricette",
+        "plants": "Piante",
+        "aboutUs": "Chi siamo",
+        "recognizePlant": "Riconosci pianta",
+        "account": "Account",
+        "addForum": "Aggiungi al forum",
+        "login": "Accedi",
+        "logout": "Esci",
+        "register": "Registrati",
+        "language": "Lingua:",
+        "categories": {
+            "all": "Tutte",
+            "medicinales": "Medicinali",
+            "ornamentales": "Ornamentali",
+            "frutales": "Fruttifere",
+            "aromáticas": "Aromatiche"
+        }
+    },
+    "ListaForo": {
+        "heading": "Forum della Comunità",
+        "noEntries": "Non ci sono ancora contributi per questa pianta.",
+        "beFirst": "Sii il primo a condividere la tua esperienza!",
+        "ForoCard": {
+            "postedBy": "Pubblicato da:",
+            "date": "Data:",
+            "imageAlt": "Immagine del forum {id}"
+        }
+    },
+    "RecetasPage": {
+        "title": "Ricette Naturali",
+        "Lista": {
+            "searchLabel": "Cerca:",
+            "searchPlaceholder": "Cerca ricette..."
+        },
+        "Modal": {
+            "description": "Descrizione",
+            "instructions": "Istruzioni",
+            "date": "Data:",
+            "user": "Utente:",
+            "close": "Chiudi"
+        }
+    },
+    "RecetaPage": {
+        "notFound": "Ricetta non trovata",
+        "description": "Descrizione",
+        "instructions": "Istruzioni",
+        "date": "Data:",
+        "user": "Utente:"
+    },
+    "Mapa": {
+        "filterLabel": "Filtra per pianta",
+        "allPlantsOption": "Tutte le piante",
+        "closeSelection": "Chiudi selezione",
+        "postedBy": "👤 {usuario}",
+        "location": "📍 {latitud}, {longitud}"
+    },
+    "GeneradorRecetas": {
+        "title": "Genera ricetta con IA",
+        "placeholder": "Es: pomodoro, origano, basilico",
+        "generateButton": "Genera ricetta",
+        "generating": "Generazione in corso...",
+        "error": "Errore nella generazione della ricetta.",
+        "emptyWarning": "Inserisci alcuni ingredienti"
+    },
+    "Nosotros": {
+        "title": "Chi Siamo",
+        "subtitle": "Collegare natura, tecnologia e comunità",
+        "whatIsTitle": "Cos'è EcoExplora?",
+        "whatIsDescription": "È una piattaforma creata nel contesto del progetto accademico PUCE per facilitare la conoscenza e il riconoscimento delle piante della regione di Chugchilán. L'obiettivo è offrire accesso facile alle informazioni sulla flora locale, sia agli abitanti che ai turisti.",
+        "teamTitle": "Team di Lavoro",
+        "roles": {
+            "fausto": "Sviluppatore Backend",
+            "alejandro": "Sviluppatore Backend",
+            "sebas": "Sviluppatore Frontend",
+            "domenica": "Designer UX/UI",
+            "alam": "Designer UX/UI"
+        },
+        "technologiesTitle": "Tecnologie Utilizzate",
+        "footerThanks": "Ringraziamo sinceramente i nostri insegnanti per la loro guida e la comunità di Chugchilán per la collaborazione nello sviluppo di questo strumento educativo."
+    },
+    "LoginModal": {
+        "title": "Accedi",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "submit": "Entra",
+        "loading": "Caricamento...",
+        "noAccount": "Non hai un account?",
+        "registerLink": "Registrati",
+        "defaultError": "Si è verificato un errore inaspettato."
+    },
+    "RegisterModal": {
+        "title": "Crea un account",
+        "loading": "Registrazione in corso...",
+        "errorRequired": "Tutti i campi sono obbligatori.",
+        "success": "Registrazione avvenuta con successo! Ora puoi accedere.",
+        "registrationError": "Errore durante la registrazione dell'utente.",
+        "nameLabel": "Nome",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "submit": "Registrati",
+        "alreadyAccount": "Hai già un account?",
+        "loginLink": "Accedi",
+        "defaultError": "Si è verificato un errore inaspettato."
+    }
+}

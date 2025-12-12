@@ -1,0 +1,128 @@
+.nosotros-container {
+    padding: 2rem;
+    background: #f5fdf7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros-card {
+    background: linear-gradient(to bottom right, #ffffff, #e8fce8);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nosotros-logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.titulo-nosotros {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.nosotros-subtitle {
+    font-style: italic;
+    color: #555;
+}
+
+.nosotros-section {
+    margin-bottom: 2rem;
+}
+
+.nosotros-section h2 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+
+.nosotros-section p,
+.nosotros-section li {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.tech-list {
+    padding-left: 1.5rem;
+}
+
+.tech-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech-list li {
+    background: #d0f0d0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nosotros-footer {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+}
+
+.equipo-section h2 {
+    text-align: center;
+}
+
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.equipo-card {
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.equipo-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
+
+.equipo-card strong {
+    font-size: 1.1rem;
+    color: #2e7d32;
+}
+
+.equipo-card p {
+    margin: 0.3rem 0 0;
+    color: #555;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,142 @@
+{
+    "HomePage": {
+        "title": "Bienvenido a EcoExplora",
+        "aboutTitle": "¿Qué es EcoExplora?",
+        "aboutDescription": "es un repositorio digital de plantas clasificadas en categorías como medicinales, ornamentales, frutales y aromáticas. Este sitio proporciona información relevante y accesible sobre sus usos, beneficios, hábitats y recetas naturales asociadas.\n\nNuestra misión es fomentar el conocimiento botánico y promover el uso responsable y sostenible de las plantas en la vida diaria.",
+        "ourMission": "Nuestra misión es fomentar el conocimiento botánico y promover el uso responsable y sostenible de las plantas en la vida diaria."
+    },
+    "DiscoverSection": {
+        "heading": "Descubre Nuestra Colección de Plantas",
+        "description": "Explora nuestra extensa biblioteca de plantas nativas. Conoce sus características, propiedades, usos y ubicaciones.",
+        "cta": "Ver Todas las Plantas →"
+    },
+    "Loading": {
+        "loadingText": "Cargando EcoExplora..."
+    },
+
+    "PlantasPage": {
+        "toggleMap": "Mostrar Mapa",
+        "toggleList": "Mostrar Lista",
+        "searchLabel": "Buscar:",
+        "searchPlaceholder": "Buscar plantas...",
+        "Listado": {
+            "previous": "Anterior",
+            "next": "Siguiente",
+            "pageIndicator": "Página {page} de {total}"
+        }
+    },
+    "PlantaPage": {
+        "notFound": "Planta no encontrada",
+        "category": "Categoría:",
+        "zone": "Zona:",
+        "timesConsumed": "Veces consumida:",
+        "registeredBy": "Registrado por:",
+        "registrationDate": "Fecha de registro:"
+    },
+    "Nav": {
+        "home": "Inicio",
+        "recipes": "Recetas",
+        "plants": "Plantas",
+        "aboutUs": "Nosotros",
+        "recognizePlant": "Reconocer planta",
+        "addForum": "Agregar foro",
+        "login": "Iniciar sesión",
+        "logout": "Cerrar sesión",
+        "register": "Registrarse",
+        "language": "Idioma:",
+        "account": "Cuenta",
+        "categories": {
+            "all": "Todas",
+            "medicinales": "Medicinales",
+            "ornamentales": "Ornamentales",
+            "frutales": "Frutales",
+            "aromáticas": "Aromáticas"
+        }
+    },
+    "ListaForo": {
+        "heading": "Foro de la Comunidad",
+        "noEntries": "Aún no hay entradas en el foro para esta planta.",
+        "beFirst": "¡Sé el primero en compartir tu experiencia!",
+        "ForoCard": {
+            "postedBy": "Publicado por:",
+            "date": "Fecha:",
+            "imageAlt": "Imagen del foro {id}"
+        }
+    },
+    "RecetasPage": {
+        "title": "Recetas Naturales",
+        "Lista": {
+            "searchLabel": "Buscar:",
+            "searchPlaceholder": "Buscar recetas..."
+        },
+        "Modal": {
+            "description": "Descripción",
+            "instructions": "Instrucciones",
+            "date": "Fecha:",
+            "user": "Usuario:",
+            "close": "Cerrar"
+        }
+    },
+    "RecetaPage": {
+        "notFound": "Receta no encontrada",
+        "description": "Descripción",
+        "instructions": "Instrucciones",
+        "date": "Fecha:",
+        "user": "Usuario:"
+    },
+
+    "Mapa": {
+        "filterLabel": "Filtrar por planta",
+        "allPlantsOption": "Todas las plantas",
+        "closeSelection": "Cerrar selección de planta",
+        "postedBy": "👤 {usuario}",
+        "location": "📍 {latitud}, {longitud}"
+    },
+    "GeneradorRecetas": {
+        "title": "Generar receta mediante IA",
+        "placeholder": "Ej: tomate, orégano, albahaca",
+        "generateButton": "Generar receta",
+        "generating": "Generando...",
+        "error": "Error al generar la receta.",
+        "emptyWarning": "Escribe algunos ingredientes"
+    },
+    "Nosotros": {
+        "title": "Sobre Nosotros",
+        "subtitle": "Conectando naturaleza, tecnología y comunidad",
+        "whatIsTitle": "¿Qué es EcoExplora?",
+        "whatIsDescription": "es una plataforma creada en el marco del proyecto académico PUCE para facilitar el conocimiento y reconocimiento de las plantas de la región de Chugchilán. Nuestro objetivo es que tanto habitantes como turistas puedan acceder fácilmente a información sobre la flora local.",
+        "teamTitle": "Equipo de Trabajo",
+        "roles": {
+            "fausto": "Desarrollador Backend",
+            "alejandro": "Desarrollador Backend",
+            "sebas": "Desarrollador Frontend",
+            "domenica": "Diseñadora UX/UI",
+            "alam": "Diseñador UX/UI"
+        },
+        "technologiesTitle": "Tecnologías Utilizadas",
+        "footerThanks": "Agradecemos profundamente a nuestros docentes por su guía y a la comunidad de Chugchilán por su colaboración en el desarrollo de esta herramienta educativa."
+    },
+    "LoginModal": {
+        "title": "Iniciar Sesión",
+        "emailLabel": "Correo Electrónico",
+        "passwordLabel": "Contraseña",
+        "submit": "Entrar",
+        "loading": "Cargando...",
+        "noAccount": "¿No tienes una cuenta?",
+        "registerLink": "Regístrate",
+        "defaultError": "Ocurrió un error inesperado."
+    },
+    "RegisterModal": {
+        "title": "Crear una Cuenta",
+        "loading": "Registrando...",
+        "errorRequired": "Todos los campos son obligatorios.",
+        "success": "¡Registro exitoso! Ahora puedes iniciar sesión.",
+        "nameLabel": "Nombre",
+        "emailLabel": "Correo Electrónico",
+        "passwordLabel": "Contraseña",
+        "submit": "Registrarse",
+        "alreadyAccount": "¿Ya tienes una cuenta?",
+        "loginLink": "Inicia sesión",
+        "defaultError": "Ocurrió un error inesperado."
+    }
+}

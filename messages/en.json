@@ -1,0 +1,141 @@
+{
+    "HomePage": {
+        "title": "Welcome to EcoExplora",
+        "aboutTitle": "What is EcoExplora?",
+        "aboutDescription": "is a digital repository of plants classified into categories such as medicinal, ornamental, fruit-bearing, and aromatic. This site provides relevant and accessible information about their uses, benefits, habitats, and natural recipes.\n\nOur mission is to promote botanical knowledge and encourage the responsible and sustainable use of plants in daily life.",
+        "ourMission": "Our mission is to promote botanical knowledge and encourage the responsible and sustainable use of plants in daily life."
+    },
+    "DiscoverSection": {
+        "heading": "Discover Our Plant Collection",
+        "description": "Explore our extensive library of native plants. Learn about their characteristics, properties, uses, and locations.",
+        "cta": "View All Plants →"
+    },
+    "Loading": {
+        "loadingText": "Loading EcoExplora..."
+    },
+    "PlantasPage": {
+        "toggleMap": "Show Map",
+        "toggleList": "Show List",
+        "searchLabel": "Search:",
+        "searchPlaceholder": "Search plants...",
+        "Listado": {
+            "previous": "Previous",
+            "next": "Next",
+            "pageIndicator": "Page {page} of {total}"
+        }
+    },
+    "PlantaPage": {
+        "notFound": "Plant not found",
+        "category": "Category:",
+        "zone": "Zone:",
+        "timesConsumed": "Times consumed:",
+        "registeredBy": "Registered by:",
+        "registrationDate": "Registration date:"
+    },
+    "Nav": {
+        "home": "Home",
+        "recipes": "Recipes",
+        "plants": "Plants",
+        "aboutUs": "About Us",
+        "recognizePlant": "Identify Plant",
+        "account": "Account",
+        "addForum": "Add Forum",
+        "login": "Log In",
+        "logout": "Log Out",
+        "register": "Register",
+        "language": "Language:",
+        "categories": {
+            "all": "All",
+            "medicinales": "Medicinal",
+            "ornamentales": "Ornamental",
+            "frutales": "Fruit-bearing",
+            "aromáticas": "Aromatic"
+        }
+    },
+    "ListaForo": {
+        "heading": "Community Forum",
+        "noEntries": "There are no forum entries for this plant yet.",
+        "beFirst": "Be the first to share your experience!",
+        "ForoCard": {
+            "postedBy": "Posted by:",
+            "date": "Date:",
+            "imageAlt": "Forum image {id}"
+        }
+    },
+    "RecetasPage": {
+        "title": "Natural Recipes",
+        "Lista": {
+            "searchLabel": "Search:",
+            "searchPlaceholder": "Search recipes..."
+        },
+        "Modal": {
+            "description": "Description",
+            "instructions": "Instructions",
+            "date": "Date:",
+            "user": "User:",
+            "close": "Close"
+        }
+    },
+    "RecetaPage": {
+        "notFound": "Recipe not found",
+        "description": "Description",
+        "instructions": "Instructions",
+        "date": "Date:",
+        "user": "User:"
+    },
+    "Mapa": {
+        "filterLabel": "Filter by plant",
+        "allPlantsOption": "All plants",
+        "closeSelection": "Close plant selection",
+        "postedBy": "👤 {usuario}",
+        "location": "📍 {latitud}, {longitud}"
+    },
+    "GeneradorRecetas": {
+        "title": "Generate Recipe with AI",
+        "placeholder": "E.g., tomato, oregano, basil",
+        "generateButton": "Generate Recipe",
+        "generating": "Generating...",
+        "error": "Error generating recipe.",
+        "emptyWarning": "Please enter some ingredients"
+    },
+    "Nosotros": {
+        "title": "About Us",
+        "subtitle": "Connecting nature, technology, and community",
+        "whatIsTitle": "What is EcoExplora?",
+        "whatIsDescription": "It is a platform created under the PUCE academic project to facilitate the knowledge and recognition of plants in the Chugchilán region. Our goal is for both residents and tourists to easily access information about the local flora.",
+        "teamTitle": "Team",
+        "roles": {
+            "fausto": "Backend Developer",
+            "alejandro": "Backend Developer",
+            "sebas": "Frontend Developer",
+            "domenica": "UX/UI Designer",
+            "alam": "UX/UI Designer"
+        },
+        "technologiesTitle": "Technologies Used",
+        "footerThanks": "We deeply thank our professors for their guidance and the Chugchilán community for their collaboration in developing this educational tool."
+    },
+    "LoginModal": {
+        "title": "Log In",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "submit": "Enter",
+        "loading": "Loading...",
+        "noAccount": "Don't have an account?",
+        "registerLink": "Sign Up",
+        "defaultError": "An unexpected error occurred."
+    },
+    "RegisterModal": {
+        "title": "Create an Account",
+        "loading": "Registering...",
+        "errorRequired": "All fields are required.",
+        "success": "Registration successful! You can now log in.",
+        "registrationError": "Error registering the user.",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "submit": "Sign Up",
+        "alreadyAccount": "Already have an account?",
+        "loginLink": "Log In",
+        "defaultError": "An unexpected error occurred."
+    }
+}

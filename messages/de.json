@@ -1,0 +1,141 @@
+{
+    "HomePage": {
+        "title": "Willkommen bei EcoExplora",
+        "aboutTitle": "Was ist EcoExplora?",
+        "aboutDescription": "ist ein digitales Pflanzenarchiv, in dem Pflanzen in Kategorien wie medizinisch, dekorativ, fruchttragend und aromatisch eingeteilt sind. Diese Website bietet relevante und leicht zugängliche Informationen über deren Verwendung, Nutzen, Lebensräume und natürliche Rezepte.\n\nUnsere Mission ist es, botanisches Wissen zu fördern und den verantwortungsvollen und nachhaltigen Umgang mit Pflanzen im Alltag zu unterstützen.",
+        "ourMission": "Unsere Mission ist es, botanisches Wissen zu fördern und den verantwortungsvollen und nachhaltigen Umgang mit Pflanzen im Alltag zu unterstützen."
+    },
+    "DiscoverSection": {
+        "heading": "Entdecke unsere Pflanzensammlung",
+        "description": "Erkunde unsere umfangreiche Bibliothek mit einheimischen Pflanzen. Erfahre mehr über ihre Merkmale, Eigenschaften, Anwendungen und Fundorte.",
+        "cta": "Alle Pflanzen ansehen →"
+    },
+    "Loading": {
+        "loadingText": "EcoExplora wird geladen..."
+    },
+    "PlantasPage": {
+        "toggleMap": "Karte anzeigen",
+        "toggleList": "Liste anzeigen",
+        "searchLabel": "Suchen:",
+        "searchPlaceholder": "Pflanzen suchen...",
+        "Listado": {
+            "previous": "Zurück",
+            "next": "Weiter",
+            "pageIndicator": "Seite {page} von {total}"
+        }
+    },
+    "PlantaPage": {
+        "notFound": "Pflanze nicht gefunden",
+        "category": "Kategorie:",
+        "zone": "Zone:",
+        "timesConsumed": "Verwendet:",
+        "registeredBy": "Registriert von:",
+        "registrationDate": "Registrierungsdatum:"
+    },
+    "Nav": {
+        "home": "Startseite",
+        "recipes": "Rezepte",
+        "plants": "Pflanzen",
+        "aboutUs": "Über uns",
+        "recognizePlant": "Pflanze erkennen",
+        "account": "Konto",
+        "addForum": "Forum hinzufügen",
+        "login": "Anmelden",
+        "logout": "Abmelden",
+        "register": "Registrieren",
+        "language": "Sprache:",
+        "categories": {
+            "all": "Alle",
+            "medicinales": "Medizinisch",
+            "ornamentales": "Zierpflanzen",
+            "frutales": "Fruchtpflanzen",
+            "aromáticas": "Aromatisch"
+        }
+    },
+    "ListaForo": {
+        "heading": "Community-Forum",
+        "noEntries": "Für diese Pflanze gibt es noch keine Beiträge.",
+        "beFirst": "Sei der Erste, der seine Erfahrung teilt!",
+        "ForoCard": {
+            "postedBy": "Veröffentlicht von:",
+            "date": "Datum:",
+            "imageAlt": "Forenbild {id}"
+        }
+    },
+    "RecetasPage": {
+        "title": "Natürliche Rezepte",
+        "Lista": {
+            "searchLabel": "Suchen:",
+            "searchPlaceholder": "Rezepte suchen..."
+        },
+        "Modal": {
+            "description": "Beschreibung",
+            "instructions": "Anleitung",
+            "date": "Datum:",
+            "user": "Benutzer:",
+            "close": "Schließen"
+        }
+    },
+    "RecetaPage": {
+        "notFound": "Rezept nicht gefunden",
+        "description": "Beschreibung",
+        "instructions": "Anleitung",
+        "date": "Datum:",
+        "user": "Benutzer:"
+    },
+    "Mapa": {
+        "filterLabel": "Nach Pflanze filtern",
+        "allPlantsOption": "Alle Pflanzen",
+        "closeSelection": "Auswahl schließen",
+        "postedBy": "👤 {usuario}",
+        "location": "📍 {latitud}, {longitud}"
+    },
+    "GeneradorRecetas": {
+        "title": "Rezept mit KI generieren",
+        "placeholder": "Z.B.: Tomate, Oregano, Basilikum",
+        "generateButton": "Rezept generieren",
+        "generating": "Wird generiert...",
+        "error": "Fehler beim Generieren des Rezepts.",
+        "emptyWarning": "Bitte gib einige Zutaten ein"
+    },
+    "Nosotros": {
+        "title": "Über Uns",
+        "subtitle": "Natur, Technologie und Gemeinschaft verbinden",
+        "whatIsTitle": "Was ist EcoExplora?",
+        "whatIsDescription": "Eine Plattform im Rahmen eines PUCE-Projekts zur Erleichterung des Wissens und der Erkennung von Pflanzen in der Region Chugchilán. Ziel ist es, dass Einheimische und Touristen gleichermaßen einfachen Zugang zu Informationen über die lokale Flora haben.",
+        "teamTitle": "Team",
+        "roles": {
+            "fausto": "Backend-Entwickler",
+            "alejandro": "Backend-Entwickler",
+            "sebas": "Frontend-Entwickler",
+            "domenica": "UX/UI-Designerin",
+            "alam": "UX/UI-Designer"
+        },
+        "technologiesTitle": "Verwendete Technologien",
+        "footerThanks": "Ein besonderer Dank geht an unsere Lehrkräfte für ihre Unterstützung und an die Gemeinschaft von Chugchilán für ihre Mitarbeit bei der Entwicklung dieses Bildungswerkzeugs."
+    },
+    "LoginModal": {
+        "title": "Einloggen",
+        "emailLabel": "E-Mail",
+        "passwordLabel": "Passwort",
+        "submit": "Einloggen",
+        "loading": "Lädt...",
+        "noAccount": "Noch kein Konto?",
+        "registerLink": "Registrieren",
+        "defaultError": "Ein unerwarteter Fehler ist aufgetreten."
+    },
+    "RegisterModal": {
+        "title": "Konto erstellen",
+        "loading": "Registrierung läuft...",
+        "errorRequired": "Alle Felder sind erforderlich.",
+        "success": "Registrierung erfolgreich! Sie können sich jetzt einloggen.",
+        "registrationError": "Fehler bei der Benutzerregistrierung.",
+        "nameLabel": "Name",
+        "emailLabel": "E-Mail",
+        "passwordLabel": "Passwort",
+        "submit": "Registrieren",
+        "alreadyAccount": "Haben Sie bereits ein Konto?",
+        "loginLink": "Einloggen",
+        "defaultError": "Ein unerwarteter Fehler ist aufgetreten."
+    }
+}
