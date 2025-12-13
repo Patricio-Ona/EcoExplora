@@ -88,6 +88,10 @@
         "date": "Fecha:",
         "user": "Usuario:"
     },
+    "PlantaDetailImage": {
+        "enlargeImage": "Ampliar imagen",
+        "close": "Cerrar"
+    },
 
     "Mapa": {
         "filterLabel": "Filtrar por planta",

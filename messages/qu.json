@@ -83,6 +83,10 @@
         "date": "P'unchay:",
         "user": "Runa:"
     },
+    "PlantaDetailImage": {
+        "enlargeImage": "Rikchay hatun ruray",
+        "close": "Wichariy"
+    },
     "Mapa": {
         "filterLabel": "Sacha maskariy",
         "allPlantsOption": "Tukuy sachakuna",
@@ -102,7 +106,7 @@
         "title": "Ñukanchikmanta",
         "subtitle": "Sacha, yachay, ayllu juntay",
         "whatIsTitle": "¿Imashina EcoExplora kan?",
-        "whatIsDescription": "Kay plataforma PUCE yachaypi rurashka, Chugchilán llaqtapi sachakunata yachakuyta facilkama rurayta munan. Kaypi runakuna ima shina riksikuna sachakunata yachakunkapak.",
+        "whatIsDescription": "Kay plataforma PUCE yachaypi rurashka, Cruz Loma llaqtapi sachakunata yachakuyta facilkama rurayta munan. Kaypi runakuna ima shina riksikuna sachakunata yachakunkapak.",
         "teamTitle": "Llankaykuna Runa",
         "roles": {
             "fausto": "Backend ruraykamayuq",
@@ -112,7 +116,7 @@
             "alam": "UX/UI riksichiq"
         },
         "technologiesTitle": "Yachaykuna Rurakushka",
-        "footerThanks": "Yupaychani ñukanchik yachachikkunata. Chugchilán llaqtakunaman yupaychani kay yachay ruranakuypi yanapashkakman."
+        "footerThanks": "🌿 Cruz Loma llaqtapi sachakunata EcoExplora-wan riksiy. Sachakunata, ruraykunata, allpata rikuq yachaypaq."
     },
     "LoginModal": {
         "title": "Yaykuy",

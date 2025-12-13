@@ -83,6 +83,10 @@
         "date": "Datum:",
         "user": "Benutzer:"
     },
+    "PlantaDetailImage": {
+        "enlargeImage": "Bild vergrößern",
+        "close": "Schließen"
+    },
     "Mapa": {
         "filterLabel": "Nach Pflanze filtern",
         "allPlantsOption": "Alle Pflanzen",
@@ -102,7 +106,7 @@
         "title": "Über Uns",
         "subtitle": "Natur, Technologie und Gemeinschaft verbinden",
         "whatIsTitle": "Was ist EcoExplora?",
-        "whatIsDescription": "Eine Plattform im Rahmen eines PUCE-Projekts zur Erleichterung des Wissens und der Erkennung von Pflanzen in der Region Chugchilán. Ziel ist es, dass Einheimische und Touristen gleichermaßen einfachen Zugang zu Informationen über die lokale Flora haben.",
+        "whatIsDescription": "Eine Plattform im Rahmen eines PUCE-Projekts zur Erleichterung des Wissens und der Erkennung von Pflanzen in der Gemeinschaft von Cruz Loma. Ziel ist es, dass Einheimische und Touristen gleichermaßen einfachen Zugang zu Informationen über die lokale Flora haben.",
         "teamTitle": "Team",
         "roles": {
             "fausto": "Backend-Entwickler",
@@ -112,7 +116,7 @@
             "alam": "UX/UI-Designer"
         },
         "technologiesTitle": "Verwendete Technologien",
-        "footerThanks": "Ein besonderer Dank geht an unsere Lehrkräfte für ihre Unterstützung und an die Gemeinschaft von Chugchilán für ihre Mitarbeit bei der Entwicklung dieses Bildungswerkzeugs."
+        "footerThanks": "🌿 Entdecken Sie den botanischen Reichtum von Cruz Loma mit EcoExplora. Ihr interaktiver Leitfaden zur Erkundung von Pflanzen, Rezepten und der Natur um uns herum."
     },
     "LoginModal": {
         "title": "Einloggen",
