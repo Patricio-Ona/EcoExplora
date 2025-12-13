@@ -64,42 +64,6 @@ const Nosotros = () => {
                     </ul>
                 </section>
 
-                <section className='nosotros-section'>
-                    <h2>{t('collaboratorsTitle')}</h2>
-                    <div className='equipo-grid'>
-                        <div className='equipo-card'>
-                            <a href="https://www.instagram.com/warmi_guia?utm_source=ig_web_button_share_sheet&igsh=MTI5Ymw2YWRrNGV2cA==">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.21_553e4846_iabirx.jpg" alt="WarmiGUía" />
-                                <strong>WarmiGUía</strong>
-                            </a>
-                        </div>
-                        <div className='equipo-card'>
-                            <a href="https://www.instagram.com/sirma_puce?utm_source=ig_web_button_share_sheet&igsh=cGszeDd5OTFyZWU=">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.02_2ec3b6f5_bp0k7p.jpg" alt="SIRMA" />
-                                <strong>SIRMA</strong>
-                            </a>
-                        </div>
-                        <div className='equipo-card'>
-                            <a href="https://www.instagram.com/nustakawsay?utm_source=ig_web_button_share_sheet&igsh=eDVncXp6OXFrcDkx">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.26_956a88f9_s4f38b.jpg" alt="ÑUSTA" />
-                                <strong>ÑUSTA</strong>
-                            </a>
-                        </div>
-                        <div className='equipo-card'>
-                            <a href="https://www.instagram.com/tarpu_yachay?utm_source=ig_web_button_share_sheet&igsh=N2VnNmtweHd4cmRy">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.01_706ee7ec_d4rttz.jpg" alt="TarpuYachay" />
-                                <strong>TarpuYachay</strong>
-                            </a>
-                        </div>
-                        <div className='equipo-card'>
-                            <a href="https://www.instagram.com/alliy.oficial?utm_source=ig_web_button_share_sheet&igsh=b24wdGZjMjZ6b2I4">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.39.25_b2ed67f1_l3ckuz.jpg" alt="Alliy" />
-                                <strong>Alliy</strong>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-
                 <section className='nosotros-section nosotros-footer'>
                     <p>{t('footerThanks')}</p>
                 </section>
