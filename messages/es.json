@@ -2,7 +2,11 @@
     "HomePage": {
         "title": "Bienvenido a EcoExplora",
         "aboutTitle": "¿Qué es EcoExplora?",
-        "aboutDescription": "es un repositorio digital de plantas clasificadas en categorías como medicinales, ornamentales, frutales y aromáticas. Este sitio proporciona información relevante y accesible sobre sus usos, beneficios, hábitats y recetas naturales asociadas.\n\nNuestra misión es fomentar el conocimiento botánico y promover el uso responsable y sostenible de las plantas en la vida diaria.",
+        "aboutDescription": "es un repositorio digital de plantas clasificadas en categorías como medicinales, ornamentales, frutales y aromáticas. Este sitio proporciona información relevante y accesible sobre sus usos, beneficios, hábitats y recetas naturales asociadas.",
+        "missionTitle": "Nuestra Misión",
+        "missionDescription": "Fomentar el conocimiento botánico y promover el uso responsable y sostenible de las plantas en la vida diaria.",
+        "visionTitle": "Nuestra Visión",
+        "visionDescription": "Ser una herramienta educativa que conecte a la comunidad de Cruz Loma con la naturaleza, preservando su biodiversidad y cultura tradicional.",
         "ourMission": "Nuestra misión es fomentar el conocimiento botánico y promover el uso responsable y sostenible de las plantas en la vida diaria."
     },
     "DiscoverSection": {
