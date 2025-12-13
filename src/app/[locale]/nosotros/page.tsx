@@ -53,17 +53,6 @@ const Nosotros = () => {
                     </div>
                 </section>
 
-                <section className='nosotros-section'>
-                    <h2>{t('technologiesTitle')}</h2>
-                    <ul className='tech-list'>
-                        <li>Next.js (React)</li>
-                        <li>Node.js</li>
-                        <li>API Spoonacular</li>
-                        <li>Git & GitHub</li>
-                        <li>Hostinger (para despliegue)</li>
-                    </ul>
-                </section>
-
                 <section className='nosotros-section nosotros-footer'>
                     <p>{t('footerThanks')}</p>
                 </section>
