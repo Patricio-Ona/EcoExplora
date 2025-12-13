@@ -29,6 +29,9 @@ const Nosotros = () => {
 
                 <section className='nosotros-section'>
                     <h2>{t('teamTitle')}</h2>
+                    <p style={{ marginBottom: '2rem', color: '#666', fontSize: '1rem' }}>
+                        Un equipo dedicado de profesionales trabajando para acercar la naturaleza a la comunidad de Cruz Loma.
+                    </p>
                     <div className='equipo-grid'>
                         <div className='equipo-card'>
                             <FaLaptopCode className='equipo-icon' />
