@@ -40,10 +40,6 @@ async function page(props: { params: Promise<{ nombre: string }> }) {
                         <div>
                             <span className='font-semibold'>{t('zone')}</span> {planta.Zona}
                         </div>
-                        <div>
-                            <span className='font-semibold'>{t('timesConsumed')}</span>{' '}
-                            {planta.VecesConsumida}
-                        </div>
                         <div className='col-span-2'></div>
                     </div>
 
