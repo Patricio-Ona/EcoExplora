@@ -2,6 +2,7 @@ import React from 'react'
 import { getPlanta } from '@/app/[locale]/api/plantas'
 import { PlantaSola } from '@/app/[locale]/types/types'
 import ListaForo from '@/app/[locale]/ui/ListaForo'
+import PlantaDetailImage from '@/app/[locale]/components/PlantaDetailImage'
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 
@@ -48,13 +49,7 @@ async function page(props: { params: Promise<{ nombre: string }> }) {
             {/* Contenido principal */}
             <div className='planta-detail-content'>
                 {/* Imagen Hero */}
-                <div className='planta-detail-image-section'>
-                    <img
-                        src={planta.ImagenURL}
-                        alt={planta.NombreComun}
-                        className='planta-detail-image'
-                    />
-                </div>
+                <PlantaDetailImage src={planta.ImagenURL} alt={planta.NombreComun} />
 
                 {/* Información de la planta */}
                 <div className='planta-detail-info-section'>
