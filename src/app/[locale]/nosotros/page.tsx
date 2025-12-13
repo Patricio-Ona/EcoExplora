@@ -37,18 +37,13 @@ const Nosotros = () => {
                         </div>
                         <div className='equipo-card'>
                             <FaLaptopCode className='equipo-icon' />
-                            <strong>Alejandro Chicaziza</strong>
-                            <p>{t('roles.alejandro')}</p>
-                        </div>
-                        <div className='equipo-card'>
-                            <FaLaptopCode className='equipo-icon' />
-                            <strong>Sebas Arcentales</strong>
-                            <p>{t('roles.sebas')}</p>
+                            <strong>Patricio Oña</strong>
+                            <p>Desarrollador Frontend</p>
                         </div>
                         <div className='equipo-card'>
                             <FaPaintBrush className='equipo-icon' />
-                            <strong>Domenica Alvarez</strong>
-                            <p>{t('roles.domenica')}</p>
+                            <strong>Danahé Andrade</strong>
+                            <p>Diseñadora de Interfaz</p>
                         </div>
                         <div className='equipo-card'>
                             <FaPaintBrush className='equipo-icon' />
@@ -68,47 +63,39 @@ const Nosotros = () => {
                         <li>Hostinger (para despliegue)</li>
                     </ul>
                 </section>
+
                 <section className='nosotros-section'>
-                    <h2>{t('teamTitle')}</h2>
+                    <h2>{t('collaboratorsTitle')}</h2>
                     <div className='equipo-grid'>
                         <div className='equipo-card'>
                             <a href="https://www.instagram.com/warmi_guia?utm_source=ig_web_button_share_sheet&igsh=MTI5Ymw2YWRrNGV2cA==">
-                            <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.21_553e4846_iabirx.jpg" alt="" />
-                            <strong>WarmiGUía</strong>
+                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.21_553e4846_iabirx.jpg" alt="WarmiGUía" />
+                                <strong>WarmiGUía</strong>
                             </a>
-                           
                         </div>
                         <div className='equipo-card'>
                             <a href="https://www.instagram.com/sirma_puce?utm_source=ig_web_button_share_sheet&igsh=cGszeDd5OTFyZWU=">
-                            <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.02_2ec3b6f5_bp0k7p.jpg" alt="" />
-                            <strong>SIRMA</strong>
+                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.02_2ec3b6f5_bp0k7p.jpg" alt="SIRMA" />
+                                <strong>SIRMA</strong>
                             </a>
-                            
-                            
                         </div>
                         <div className='equipo-card'>
                             <a href="https://www.instagram.com/nustakawsay?utm_source=ig_web_button_share_sheet&igsh=eDVncXp6OXFrcDkx">
-                             <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.26_956a88f9_s4f38b.jpg" alt="" />
-                            <strong>ÑUSTA</strong>
+                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.40.26_956a88f9_s4f38b.jpg" alt="ÑUSTA" />
+                                <strong>ÑUSTA</strong>
                             </a>
-                           
-                            
                         </div>
                         <div className='equipo-card'>
                             <a href="https://www.instagram.com/tarpu_yachay?utm_source=ig_web_button_share_sheet&igsh=N2VnNmtweHd4cmRy">
-                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.01_706ee7ec_d4rttz.jpg" alt="" />
-                            <strong>TarpuYachay </strong>
+                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.41.01_706ee7ec_d4rttz.jpg" alt="TarpuYachay" />
+                                <strong>TarpuYachay</strong>
                             </a>
-                            
-                           
                         </div>
-                                <div className='equipo-card'>
-                                    <a href="https://www.instagram.com/alliy.oficial?utm_source=ig_web_button_share_sheet&igsh=b24wdGZjMjZ6b2I4">
-                                         <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.39.25_b2ed67f1_l3ckuz.jpg" alt="" />
-                            <strong>Alliy </strong>
-                                    </a>
-                           
-                           
+                        <div className='equipo-card'>
+                            <a href="https://www.instagram.com/alliy.oficial?utm_source=ig_web_button_share_sheet&igsh=b24wdGZjMjZ6b2I4">
+                                <img src="https://res.cloudinary.com/dumz9tpvu/image/upload/v1753138232/Imagen_de_WhatsApp_2025-07-21_a_las_17.39.25_b2ed67f1_l3ckuz.jpg" alt="Alliy" />
+                                <strong>Alliy</strong>
+                            </a>
                         </div>
                     </div>
                 </section>
