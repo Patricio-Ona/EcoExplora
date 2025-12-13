@@ -192,55 +192,103 @@ const PlantIdFileUploader: React.FC = () => {
     };
 
     return (
-        <div className='container mx-auto p-4 my-4 sm:my-8 rounded-lg shadow-lg max-w-xl'>
-            <h1 className='text-2xl font-bold my-6 text-green-800 text-center'>Identificación de Planta (Subir Imagen)</h1>
+        <div className='plant-id-container'>
+            <div className='plant-id-header'>
+                <h1 className='plant-id-title'>Identificación de Planta</h1>
+                <p className='plant-id-subtitle'>Sube una imagen para descubrir qué planta es</p>
+            </div>
 
-            <form onSubmit={handleSubmit} className='space-y-6'>
-                {/* Input para seleccionar la imagen */}
-                <div>
-                    <label htmlFor='imagenInput' className='block font-medium mb-1'>Selecciona una imagen de la planta:</label>
-                    <input
-                        id='imagenInput'
-                        type='file'
-                        accept='image/*' // Solo acepta archivos de imagen
-                        onChange={handleFileChange}
-                        className='block w-full text-sm text-gray-500
-                            file:mr-4 file:py-2 file:px-4
-                            file:rounded-full file:border-0
-                            file:text-sm file:font-semibold
-                            file:bg-green-50 file:text-green-700
-                            hover:file:bg-green-100'
-                        required
+            <div className='plant-id-content'>
+                <form onSubmit={handleSubmit} className='plant-id-form'>
+                    {/* Upload Area */}
+                    <div className='plant-id-upload-section'>
+                        <label htmlFor='imagenInput' className='plant-id-upload-area'>
+                            <div className='plant-id-upload-icon'>
+                                <svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>
+                                    <path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path>
+                                    <polyline points='17 8 12 3 7 8'></polyline>
+                                    <line x1='12' y1='3' x2='12' y2='15'></line>
+                                </svg>
+                            </div>
+                            <p className='plant-id-upload-title'>Arrastra tu imagen aquí o haz clic</p>
+                            <p className='plant-id-upload-subtitle'>PNG, JPG, GIF hasta 10MB</p>
+                            <input
+                                id='imagenInput'
+                                type='file'
+                                accept='image/*'
+                                onChange={handleFileChange}
+                                className='plant-id-file-input'
+                                required
+                            />
+                        </label>
+                    </div>
+
+                    {/* File Info Card */}
+                    {selectedImageFile && (
+                        <div className='plant-id-file-info'>
+                            <div className='plant-id-file-name'>
+                                <svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>
+                                    <path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'></path>
+                                    <polyline points='14 2 14 8 20 8'></polyline>
+                                </svg>
+                                <span>{selectedImageFile.name}</span>
+                            </div>
+                            <button 
+                                type='button' 
+                                onClick={() => {
+                                    if (previewImageUrl) URL.revokeObjectURL(previewImageUrl);
+                                    setSelectedImageFile(null);
+                                    setPreviewImageUrl(null);
+                                    setResultHtml('');
+                                }}
+                                className='plant-id-remove-btn'
+                            >
+                                ✕
+                            </button>
+                        </div>
+                    )}
+
+                    {/* Preview Image */}
+                    {previewImageUrl && (
+                        <div className='plant-id-preview-container'>
+                            <img 
+                                src={previewImageUrl} 
+                                alt='Previsualización de la imagen' 
+                                className='plant-id-preview-image' 
+                            />
+                        </div>
+                    )}
+
+                    {/* Submit Button */}
+                    <button
+                        type='submit'
+                        className={`plant-id-submit-btn ${isLoading ? 'loading' : ''}`}
+                        disabled={isLoading || !selectedImageFile}
+                    >
+                        <span className='plant-id-btn-icon'>
+                            {isLoading ? (
+                                <svg className='plant-id-spinner' viewBox='0 0 24 24'>
+                                    <circle cx='12' cy='12' r='10' fill='none' strokeWidth='2'></circle>
+                                </svg>
+                            ) : (
+                                <svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>
+                                    <path d='M12 5v14M5 12h14'></path>
+                                </svg>
+                            )}
+                        </span>
+                        <span>{isLoading ? 'Identificando planta...' : 'Identificar Planta'}</span>
+                    </button>
+                </form>
+
+                {/* Result Section */}
+                <div className='plant-id-result-section'>
+                    <div 
+                        id="resultado"
+                        className='plant-id-result-content'
+                        dangerouslySetInnerHTML={{ __html: resultHtml }}
                     />
                 </div>
-
-                {/* Previsualización de la imagen */}
-                {previewImageUrl && (
-                    <div className='mt-4 flex justify-center'>
-                        <img 
-                            src={previewImageUrl} 
-                            alt='Previsualización de la imagen' 
-                            className='max-w-full h-auto max-h-64 rounded-lg shadow-md border border-gray-200' 
-                        />
-                    </div>
-                )}
-                
-                {/* Botón para enviar */}
-                <button
-                    type='submit'
-                    className='bg-green-700 hover:bg-green-600 text-white px-6 py-3 rounded-md w-full text-lg font-bold shadow-lg transition-colors duration-200'
-                    disabled={isLoading || !selectedImageFile}
-                >
-                    {isLoading ? 'Enviando y Verificando...' : 'Enviar Imagen para Identificar'}
-                </button>
-            </form>
-
-            {/* Área para mostrar el resultado */}
-            <div 
-                id="resultado" 
-                className='mt-8 p-4 bg-gray-50 rounded-lg shadow-inner'
-                dangerouslySetInnerHTML={{ __html: resultHtml }} // Usamos dangerouslySetInnerHTML para renderizar el HTML
-            />
+            </div>
         </div>
     );
 };
