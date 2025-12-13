@@ -2,6 +2,7 @@
 'use client'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
+import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
 
 interface RegisterModalProps {
     onClose: () => void
@@ -14,6 +15,7 @@ export default function RegisterModal({ onClose, onSwitchToLogin }: RegisterModa
     const [nombre, setNombre] = useState('')
     const [correo, setCorreo] = useState('')
     const [contrasena, setContrasena] = useState('')
+    const [showPassword, setShowPassword] = useState(false)
     const [error, setError] = useState('')
     const [success, setSuccess] = useState('')
     const [isLoading, setIsLoading] = useState(false) // Estado de carga
@@ -118,13 +120,22 @@ export default function RegisterModal({ onClose, onSwitchToLogin }: RegisterModa
                         <label className='block text-gray-700 mb-2' htmlFor='contrasena'>
                             {t('passwordLabel')}
                         </label>
-                        <input
-                            className='w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500'
-                            type='password'
-                            id='contrasena'
-                            value={contrasena}
-                            onChange={e => setContrasena(e.target.value)}
-                        />
+                        <div className='relative'>
+                            <input
+                                className='w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500'
+                                type={showPassword ? 'text' : 'password'}
+                                id='contrasena'
+                                value={contrasena}
+                                onChange={e => setContrasena(e.target.value)}
+                            />
+                            <button
+                                type='button'
+                                onClick={() => setShowPassword(!showPassword)}
+                                className='absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-gray-800'
+                            >
+                                {showPassword ? <AiOutlineEyeInvisible size={20} /> : <AiOutlineEye size={20} />}
+                            </button>
+                        </div>
                     </div>
                     <button
                         type='submit'
