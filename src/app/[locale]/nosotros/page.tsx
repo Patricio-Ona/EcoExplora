@@ -25,12 +25,6 @@ const Nosotros = () => {
                     <p>
                         <strong>EcoExplora</strong> {t('whatIsDescription')}
                     </p>
-                    
-                    <h3>{t('missionTitle')}</h3>
-                    <p>{t('missionDescription')}</p>
-                    
-                    <h3>{t('visionTitle')}</h3>
-                    <p>{t('visionDescription')}</p>
                 </section>
 
                 <section className='nosotros-section'>
