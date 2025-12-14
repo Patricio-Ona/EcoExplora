@@ -66,6 +66,7 @@ export default function Navbar() {
 
     const router = useRouter()
     const dropdownRef = useRef<HTMLDivElement>(null)
+    const userMenuRef = useRef<HTMLDivElement>(null)
     const pathname = usePathname()
 
     // Efecto para comprobar el token
@@ -87,6 +88,29 @@ export default function Navbar() {
                 console.error('Error al decodificar el token:', error)
                 localStorage.removeItem('authToken')
             }
+        }
+    }, [])
+
+    // Efecto para cerrar menús al hacer click fuera
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (
+                dropdownRef.current &&
+                !dropdownRef.current.contains(event.target as Node)
+            ) {
+                setIsPlantsMenuOpen(false)
+            }
+            if (
+                userMenuRef.current &&
+                !userMenuRef.current.contains(event.target as Node)
+            ) {
+                setIsUserMenuOpen(false)
+            }
+        }
+
+        document.addEventListener('mousedown', handleClickOutside)
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside)
         }
     }, [])
 
@@ -236,7 +260,7 @@ export default function Navbar() {
                             )}
 
                             {/* Menú de Usuario */}
-                            <div className='relative'>
+                            <div className='relative' ref={userMenuRef}>
                                 <button
                                     onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
                                     className='text-white hover:text-green-200 flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-2 rounded-md hover:bg-green-600/30 transition-colors duration-200'

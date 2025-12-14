@@ -2719,7 +2719,7 @@ footer {
 .plantas-search-header {
     position: sticky;
     top: 0;
-    z-index: 40;
+    z-index: 30;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(200, 200, 200, 0.2);
