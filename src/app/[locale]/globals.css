@@ -1461,37 +1461,13 @@ footer {
     min-height: 100vh;
     background: linear-gradient(135deg, #f9fdfb 0%, #f0fdf4 100%);
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
-.receta-detail-header {
+.receta-detail-container {
     max-width: 900px;
     margin: 0 auto 40px;
     animation: slideInDown 0.5s ease-out;
-}
-
-.receta-detail-back-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    background: white;
-    border: 2px solid #e0f2e7;
-    border-radius: 8px;
-    color: #1a7d3e;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(26, 125, 62, 0.08);
-}
-
-.receta-detail-back-btn:hover {
-    border-color: #3a9d23;
-    background: #f5ffef;
-    color: #2d7a1b;
-    box-shadow: 0 4px 12px rgba(26, 125, 62, 0.15);
-    transform: translateX(-4px);
 }
 
 .receta-detail-content {
@@ -2208,12 +2184,12 @@ footer {
     min-height: 100vh;
     background: linear-gradient(135deg, #f9fdfb 0%, #f0fdf4 100%);
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .planta-detail-header {
     max-width: 1000px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
     animation: slideInDown 0.5s ease-out;
 }
 

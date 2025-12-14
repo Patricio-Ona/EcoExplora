@@ -34,16 +34,6 @@ async function page(props: { params: Promise<{ nombre: string }> }) {
 
     return (
         <div className='receta-detail-container'>
-            {/* Header con botón de regreso */}
-            <div className='receta-detail-header'>
-                <Link href='/recetas' className='receta-detail-back-btn'>
-                    <svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>
-                        <path d='M19 12H5M12 19l-7-7 7-7'></path>
-                    </svg>
-                    <span>Volver</span>
-                </Link>
-            </div>
-
             {/* Contenido principal */}
             <div className='receta-detail-content'>
                 {/* Título y meta información */}
