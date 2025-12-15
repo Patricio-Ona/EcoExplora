@@ -210,7 +210,7 @@ const PlantIdFileUploader: React.FC = () => {
                                     <line x1='12' y1='3' x2='12' y2='15'></line>
                                 </svg>
                             </div>
-                            <p className='plant-id-upload-title'>Arrastra tu imagen aquí o haz clic</p>
+                            <p className='plant-id-upload-title'>Haz clic para subir tu imagen</p>
                             <p className='plant-id-upload-subtitle'>PNG, JPG, GIF hasta 10MB</p>
                             <input
                                 id='imagenInput'
