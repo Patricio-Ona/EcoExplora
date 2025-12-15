@@ -1,12 +1,16 @@
-export async function generarReceta(ingredientes: string) {
-  const res = await fetch("https://api-f9z3.onrender.com/receta", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ ingredientes }),
-  });
+// EcoExplora\src\app\[locale]\api\generar-receta.ts
+export const generarReceta = async (ingredientes: string): Promise<string> => {
+    // La llamada ahora es a la API interna de Next.js, no al servidor Python externo
+    const response = await fetch('/api/generar-receta', { 
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ingredientes }),
+    });
 
-  if (!res.ok) throw new Error("No se pudo generar la receta");
+    if (!response.ok) {
+        throw new Error('Error al conectar con la API interna para la receta.');
+    }
 
-  const data = await res.json();
-  return data.receta;
-}
+    const data = await response.json();
+    return data.receta;
+};
