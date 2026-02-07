@@ -35,7 +35,7 @@ export async function GET(request: Request) {
         }
 
         return Response.json(recetasMock, { status: 200 })
-    } catch (_) {
+    } catch{
         return Response.json({ error: 'Error fetching recetas' }, { status: 500 })
     }
 }

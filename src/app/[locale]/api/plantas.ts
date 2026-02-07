@@ -14,7 +14,7 @@ export const getPlantas = async (): Promise<Planta[]> => {
 
         const data = await response.json()
         return data
-    } catch (_) {
+    } catch{
         console.error('Error fetching plantas')
         return []
     }
