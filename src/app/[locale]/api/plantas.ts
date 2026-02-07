@@ -1,35 +1,27 @@
 import { PlantaSola } from '../types/types'
 import { Planta } from '../types/types'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL
-
-if (!API_URL) {
-    throw new Error('NEXT_PUBLIC_API_URL no está definida en el .env.local')
-}
-
 export const getPlantas = async (): Promise<Planta[]> => {
     try {
-        const response = await fetch(`${API_URL}/plantas`, {
-            next: {
-                revalidate: 60,
-            },
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/plantas`, {
+            cache: 'no-store',
         })
 
         if (!response.ok) {
-            console.error('STATUS ERROR:', response.status)
-            throw new Error('Network response was not ok')
+            console.error('API plantas respondió:', response.status)
+            return []
         }
 
         const data = await response.json()
         return data
-    } catch (error) {
-        console.error('Error fetching plantas:', error)
-        throw error
+    } catch (_) {
+        console.error('Error fetching plantas')
+        return []
     }
 }
 
 export const getPlanta = async (nombre: string) => {
-    const api = `${API_URL}/plantas/nombre/${encodeURIComponent(nombre)}`
+    const api = `${process.env.NEXT_PUBLIC_API_URL}/plantas/nombre/${encodeURIComponent(nombre)}`
     const response = await fetch(api)
 
     if (!response.ok) {
@@ -43,7 +35,7 @@ export const getPlanta = async (nombre: string) => {
 
 export const postPlanta = async (planta: Planta): Promise<Planta> => {
     try {
-        const response = await fetch(`${API_URL}/plantas`, {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/plantas`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -57,8 +49,8 @@ export const postPlanta = async (planta: Planta): Promise<Planta> => {
 
         const data = await response.json()
         return data
-    } catch (error) {
-        console.error('Error posting planta:', error)
-        throw error
+    } catch (_) {
+        console.error('Error posting planta')
+        throw new Error('No se pudo crear la planta')
     }
 }
