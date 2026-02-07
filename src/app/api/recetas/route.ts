@@ -35,7 +35,7 @@ export async function GET(request: Request) {
         }
 
         return Response.json(recetasMock, { status: 200 })
-    } catch (error) {
+    } catch (_) {
         return Response.json({ error: 'Error fetching recetas' }, { status: 500 })
     }
 }
@@ -59,7 +59,7 @@ export async function POST(request: Request) {
 
         recetasMock.push(nuevaReceta)
         return Response.json(nuevaReceta, { status: 201 })
-    } catch (error) {
+    } catch (_) {
         return Response.json({ error: 'Error creating receta' }, { status: 500 })
     }
 }
