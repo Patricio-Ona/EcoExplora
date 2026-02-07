@@ -2,9 +2,9 @@ import { Receta } from '../types/types'
 
 export const getRecetas = async () => {
     try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/recetas`, {
+        const response = await fetch('/api/recetas', {
             next: {
-                revalidate: 3000, // Revalidar cada 60 segundos
+                revalidate: 3000,
             },
         })
         if (!response.ok) {
@@ -14,11 +14,11 @@ export const getRecetas = async () => {
         return data
     } catch (error) {
         console.error('Error fetching recetas:', error)
-        throw error
+        return []
     }
 }
 export const getReceta = async (nombre: string) => {
-    const api = `${process.env.NEXT_PUBLIC_API_URL}/recetas/nombre/${encodeURIComponent(nombre)}`
+    const api = `/api/recetas?nombre=${encodeURIComponent(nombre)}`
     const response = await fetch(api)
     if (!response.ok) {
         console.error('Error fetching receta:', response.statusText)
