@@ -59,7 +59,7 @@ export async function POST(request: Request) {
 
         recetasMock.push(nuevaReceta)
         return Response.json(nuevaReceta, { status: 201 })
-    } catch (_) {
+    } catch{
         return Response.json({ error: 'Error creating receta' }, { status: 500 })
     }
 }

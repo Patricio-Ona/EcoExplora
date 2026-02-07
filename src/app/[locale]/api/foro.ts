@@ -54,7 +54,7 @@ export const postForo = async (foro: Foro): Promise<Foro> => {
 
         const data: Foro = await response.json()
         return data
-    } catch (_) {
+    } catch {
         console.error('Error posting planta')
         throw new Error('No se pudo crear la planta')
     }

@@ -49,7 +49,7 @@ export const postPlanta = async (planta: Planta): Promise<Planta> => {
 
         const data = await response.json()
         return data
-    } catch (_) {
+    } catch{
         console.error('Error posting planta')
         throw new Error('No se pudo crear la planta')
     }
