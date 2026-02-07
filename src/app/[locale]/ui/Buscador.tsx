@@ -8,7 +8,15 @@ import Link from 'next/link'
 import { getTranslations } from 'next-intl/server'
 
 export default async function Buscador() {
-    const foros: Foro[] = await getForos()
+    // ✅ ARREGLO: evitamos que el error rompa toda la página
+    let foros: Foro[] = []
+
+    try {
+        foros = await getForos()
+    } catch (error) {
+        console.error('Error cargando foros:', error)
+    }
+
     const t = await getTranslations('DiscoverSection')
 
     return (
@@ -30,18 +38,17 @@ export default async function Buscador() {
                 </Link>
             </section>
 
-            {/* <>
+            {/* <div>
                 {!cargando ? (
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 bg-gray-100  my-4 sm:m-6'>
                         {Object.entries(plantasPorCategoria).map(([categoria, plantas]) => (
                             <SeccionPlantas titulo={categoria} key={categoria} plantas={plantas} />
-                            // <div>categoria</div>
                         ))}
                     </div>
                 ) : (
                     <p>Cargando plantas...</p>
                 )}
-            </> */}
+            </div> */}
         </div>
     )
 }

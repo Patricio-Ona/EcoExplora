@@ -1,25 +1,44 @@
 import { Foro } from '../types/types'
 
 export const getForos = async (): Promise<Foro[]> => {
-    const api = `${process.env.NEXT_PUBLIC_API_URL}/foro`
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL
+
+    // ✅ ARREGLO: validar que exista la variable en producción
+    if (!baseUrl) {
+        console.error('NEXT_PUBLIC_API_URL no está definida')
+        return []
+    }
+
+    const api = `${baseUrl}/foro`
+
     try {
         const response = await fetch(api, {
             next: {
-                revalidate: 60, // Revalidar cada 60 segundos
+                revalidate: 60,
             },
         })
+
         if (!response.ok) {
             throw new Error('Network response was not ok')
         }
+
         const data: Foro[] = await response.json()
         return data
     } catch (error) {
         console.error('Error fetching foros:', error)
-        throw error
+        return [] // ✅ no romper render del servidor
     }
 }
+
 export const postForo = async (foro: Foro): Promise<Foro> => {
-    const api = `${process.env.NEXT_PUBLIC_API_URL}/foro`
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL
+
+    if (!baseUrl) {
+        throw new Error('NEXT_PUBLIC_API_URL no está definida')
+    }
+
+    const api = `${baseUrl}/foro`
+
     try {
         const response = await fetch(api, {
             method: 'POST',
@@ -28,9 +47,11 @@ export const postForo = async (foro: Foro): Promise<Foro> => {
             },
             body: JSON.stringify(foro),
         })
+
         if (!response.ok) {
             throw new Error('Network response was not ok')
         }
+
         const data: Foro = await response.json()
         return data
     } catch (error) {
